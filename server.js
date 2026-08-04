@@ -15,7 +15,7 @@ app.use(express.json());
 
 connectDB();
 
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
   res.send("Barber Booking Backend Running");
 });
 
